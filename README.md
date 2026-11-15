@@ -1,4 +1,4 @@
-# Mini-GPT
+# Dive-Into-GPT
 
 - 这是一个从零实现 GPT 的 C++ 学习项目。
 
