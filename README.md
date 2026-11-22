@@ -20,15 +20,21 @@
 
 - Starting with the fundamentals, then moving on to optimization, abstraction, and GPU programming.
 
+## 编译运行 Compile and Run
+
+可分别在各个版本（当前只有 [v0](v0)）目录下执行 `make` 编译。编译完成后，在 `build` 目录中寻找可执行文件执行。
+
+In the directory of each version ([v0](v0) is the only available version for now), execute `make` to compile, and enter `build` directory to find out executable files to execute.
+
 ## 最近更新 Latest Update
 
-*2026 年 11 月 13 日*
+*2026 年 11 月 22 日*
 
-*v0_05 Embedding：向量点积、线性变换与矩阵乘法*
+*v0_06 Transformer Block 及其基本算子*
 
-*November 13, 2026*
+*November 22, 2026*
 
-*v0_05 Vector Dot Products, Linear Transformations, and Matrix Multiplication*
+*v0_06 Transformer Block and Its Basic Operators*
 
 ## 文章目录 Articles
 
@@ -38,7 +44,10 @@
 2. [Tokenizer 的原理与实现](docs/v0_02.zh_CN.md)
 3. [Embedding：理解与实现](docs/v0_03.zh_CN.md)
 4. (Placeholder) 番外篇：静态 Embedding
-5. [向量点积、线性变换与矩阵乘法](docs/v0_05.zh_CN.md)
+5. [向量点积、线性变换和矩阵乘法](docs/v0_05.zh_CN.md)
+6. [Transformer Block 及其基本算子](docs/v0_06.zh_CN.md)
+7. (即将推出) 深入理解 Attention
+8. (敬请期待) 详细拆解 FFN
 
 *未完待续……*
 
@@ -49,6 +58,9 @@
 3. [Understanding and Implementing Embedding](docs/v0_03.md)
 4. (Placeholder) Bonus Chapter: Static Word Embeddings
 5. [Vector Dot Products, Linear Transformations, and Matrix Multiplication](docs/v0_05.md)
+6. [Transformer Block and Its Basic Operators](docs/v0_06.md)
+7. (Coming soon!) Understanding Attention in Depth
+8. (Stay tuned!) Breaking Down the FFN
 
 *To be continued...*
 
